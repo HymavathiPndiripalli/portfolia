@@ -1,5 +1,8 @@
 # portfolia
 
 ## 
-  1.Responsive Design: for Responsive web design I applied media queries for mobile view and tab view.I placed meta tag in index.html .
-  2.I applied styles to place images in appropriate places.
+* I have added a logo which represent theme of my project.
+* I have added 4 images in my project.
+* I Explained the benefits of yoga in a paragraph.
+* For Responsiveness I applied media queries for mobile view and tab view.
+  
