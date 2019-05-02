@@ -2,8 +2,12 @@
 .header {
   background-color: #AFFD;
   display: flex;
-  text-align: center;
   align-items: center;
+  font-size: 30px;
+}
+
+.header #h1 {
+  margin: auto;
 }
 
 /* header images */
