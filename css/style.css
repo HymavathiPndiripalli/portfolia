@@ -1,14 +1,13 @@
- .header {
-  background-color: #affd;
-}
-
+/* header */
 .header {
+  background-color: #AFFD;
   display: flex;
   text-align: center;
   align-items: center;
   font-size: 50px;
 }
 
+/* header images */
 .header .image {
   margin: 2%;
   border-radius: 50%;
@@ -16,18 +15,21 @@
   height: 80px;
 }
 
+/* banner */
 .banner {
   width: 95%;
   margin: 1% auto;
 }
 
+/* banner image */
 .banner .image {
   width: 100%;
 }
 
+/* main with all images */
 .main {
   width: 95%;
-  border: 2px solid #ddd;
+  border: 2px solid #DDD;
   display: flex;
   padding: 1%;
   margin: 1% auto;
@@ -35,22 +37,25 @@
 }
 
 .b {
-  border: 1px solid #ddd;
+  border: 1px solid #DDD;
   box-shadow: 0px 6px 6px -6px black;
   padding: 1%;
   margin: 2%;
 }
 
+/* paragraph */
 .para {
   font-size: 30px;
 }
 
+/* footer */
 .footer {
   text-align: center;
   padding: 2%;
   background-color: #999966;
 }
 
+/* Media queries for mobile view */
 @media (min-device-width:320px) and (max-device-width:480px) {
   .main {
     flex-wrap: wrap;
@@ -66,6 +71,7 @@
   }
 }
 
+/* Media queries for Tablet view */
 @media (min-device-width:481px) and (max-device-width:780px) {
   .header {
     font-size: 20px;
