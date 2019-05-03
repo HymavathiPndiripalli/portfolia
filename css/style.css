@@ -2,7 +2,6 @@
   background-color: #AFFD;
   display: flex;
   flex-direction: row-reverse;
-
 }
 
 #h1 {
@@ -48,7 +47,7 @@
 /* paragraph */
 .para {
   font-family: verdana, sans-serif;
-  width: 80%;
+  width: 95%;
   margin: auto;
 }
 
@@ -64,11 +63,19 @@
     display: flex;
     flex-direction: column-reverse;
   }
+
+  .para {
+    width: 80%;
+  }
 }
 
 /* Media Queries for TAb view */
 @media only screen and (min-width:480px) and (max-width:780px) {
   .main {
     display: flex;
+  }
+
+  .para {
+    width: 90%;
   }
 }
