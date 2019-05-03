@@ -6,12 +6,12 @@
   font-size: 30px;
 }
 
-.header #h1 {
+#h1 {
   margin: auto;
 }
 
 /* header images */
-.header .image {
+#image {
   margin: 2%;
   border-radius: 50%;
   width: 80px;
@@ -25,30 +25,30 @@
 }
 
 /* banner image */
-.banner .image {
+.bannerImage {
   width: 100%;
 }
 
 /* main with all images */
 .main {
   width: 95%;
-  border: 2px solid #DDD;
   display: flex;
-  padding: 1%;
+  padding: 1em;
   margin: 1% auto;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .b {
   border: 1px solid #DDD;
   box-shadow: 0px 6px 6px -6px black;
-  padding: 1%;
+  padding: 1em;
   margin: 2%;
 }
 
 /* paragraph */
 .para {
-  font-size: 30px;
+  font-family: verdana, sans-serif;
 }
 
 /* footer */
@@ -69,7 +69,19 @@
     text-align: center;
   }
 
+  #h1 {
+    width: 100%;
+  }
+
+  #image {
+    text-align: center;
+    margin: 1% auto;
+  }
+
   .header {
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
     font-size: 15px;
   }
 }
