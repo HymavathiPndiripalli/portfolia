@@ -1,9 +1,8 @@
-/* header */
 .header {
   background-color: #AFFD;
   display: flex;
-  align-items: center;
-  font-size: 30px;
+  flex-direction: row-reverse;
+
 }
 
 #h1 {
@@ -26,7 +25,7 @@
 
 /* banner image */
 .bannerImage {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* main with all images */
@@ -49,60 +48,27 @@
 /* paragraph */
 .para {
   font-family: verdana, sans-serif;
+  width: 80%;
+  margin: auto;
 }
 
 /* footer */
 .footer {
   text-align: center;
-  padding: 2%;
   background-color: #999966;
 }
 
-/* Media queries for mobile view */
-@media (min-device-width:320px) and (max-device-width:480px) {
+/* Media Queries for mobile view */
+@media only screen and (max-width:480px) {
   .main {
-    flex-wrap: wrap;
-  }
-
-  .b {
-    width: 100%;
-    text-align: center;
-  }
-
-  #h1 {
-    width: 100%;
-  }
-
-  #image {
-    text-align: center;
-    margin: 1% auto;
-  }
-
-  .header {
-    width: 100%;
-    text-align: center;
-    flex-wrap: wrap;
-    font-size: 15px;
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
-/* Media queries for Tablet view */
-@media (min-device-width:481px) and (max-device-width:780px) {
-  .header {
-    font-size: 20px;
-  }
-
+/* Media Queries for TAb view */
+@media only screen and (min-width:480px) and (max-width:780px) {
   .main {
-    flex-wrap: wrap;
-  }
-
-  .b {
-    width: 40%;
-  }
-
-  .b .image {
-    height: 25vh;
-    display: block;
-    margin: 1% auto;
+    display: flex;
   }
 }
