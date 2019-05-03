@@ -65,6 +65,10 @@
     flex-direction: column-reverse;
   }
 
+  .header {
+    padding: 5px;
+  }
+
   .para {
     width: 80%;
   }
